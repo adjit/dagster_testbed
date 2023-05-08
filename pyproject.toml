@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_module_test_project"
+version = "0.0.1"
+
+[tool.dagster]
+module_name = "my_module"
+
+[tool.pytest.ini_options]
+addopts = "-vv"
+log_cli = 1
+log_cli_level = "INFO"
+testpaths = [
+    "my_module_tests/",
+]
+python_files = "my_module_tests/*_test.py"
+python_functions = "*_test"

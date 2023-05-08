@@ -1,0 +1,12 @@
+dagster == 1.3.2
+dagster-aws
+dagster-docker
+dagster-postgres
+dagster-k8s
+dagster-graphql
+kafka-python
+pandas
+asyncio
+aiohttp
+pyodbc
+s3fs

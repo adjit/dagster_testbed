@@ -1,0 +1,4 @@
+dagit
+pytest
+pytest-asyncio
+confluent_kafka
